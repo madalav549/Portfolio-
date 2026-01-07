@@ -1,0 +1,148 @@
+/*Mobile design*/
+:root{
+  --text-color-hover: #007BFF;
+  --secondary-color: #6C757D;
+  --background-color: #F8F9FA;
+  --card-color: #FFFFFF;
+  --text-color: #343A40;
+  --heading-color: #212529;
+  --heading-font: 'Inter', sans-serif;
+  --body-font: 'Inter', sans-serif;
+  --border-radius: 12px;
+  --box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --transition: all 0.3s ease;
+  --main-font-weight: 500;
+  --header-font-weight: 900;
+  --sub-heading-font-weight: 700;
+}
+html{
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+body{
+  background-color: var(--background-color);
+  background-color: var(--background-color);
+  font-family: var(--body-font);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header h1{
+  color: var(--text-color-hover);
+  font-weight: var(--header-font-weight);
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+label{
+  font-size: 1.5rem;
+  font-weight: var(--sub-heading-font-weight);
+  color: var(--heading-color)
+}
+select{
+  width: 90%;
+  height: 1.7rem;
+  border-radius: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  outline: 0.15rem var(--text-color-hover) solid;
+  color: var(--text-color);
+  font-weight: var(--main-font-weight);
+}
+option{
+  color: var(--text-color-hover);
+  font-weight: var(--main-font-weight);
+}
+.project-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-container{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: var(--border-radius);
+  margin: 1rem auto;
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+}
+.project-container:hover{
+  transform: scale(1.03);
+}
+.project-container h2{
+  color: var(--header-font-weight);
+  font-weight: var(--header-font-weight);
+  transition: var(--transition);
+  text-align: left;
+  padding: 1rem;
+}
+.project-container h2:hover{
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+.project-container img{
+  width: 100%;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+.project-container strong{
+  color: var(--heading-color);
+  font-weight: var(--sub-heading-font-weight);
+  text-align: left;
+  width: 90%;
+  padding: 0.7rem 0;
+  padding: 1rem;
+}
+.project-container strong a{
+  color: var(--text-color);
+  font-weight: var(--main-font-weight);
+  transition: var(--transition);
+  color: var(--text-color-hover);
+  text-decoration: none;
+}
+.project-container strong a:hover{
+  text-decoration: underline;
+  font-weight: var(--sub-heading-font-weight);
+}
+/*Tablet design*/
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .project-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    padding: 2rem;
+  }
+}
+/*Desktop design*/
+@media screen and (min-width: 1024px){
+  select{
+    width: 50%;
+    height: 2.5rem;
+    text-align: center;
+  }
+  .project-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    height: fit-content;
+  }
+}
