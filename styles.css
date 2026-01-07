@@ -298,6 +298,7 @@ section{
   justify-content: center;
   gap: 0.5rem;
   margin-top: 1.5rem;
+  flex-wrap: wrap;
 }
 .contact-icon-links{
   padding: 1rem;
