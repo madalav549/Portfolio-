@@ -4,18 +4,18 @@ let projectsSection = document.getElementById("projects-section");
 
 let projectsData = [
   {
-    projectImage: "./Assets/ping-preview.jpg",
-    projectImageAlt: "Ping single column coming soon page preview",
-    projectName: "Ping single column coming soon page",
-    projectDescription: `This responsive "Coming Soon" landing page features a clean email subscription form with custom client-side validation. The design prioritizes accessibility and user experience by implementing real-time email verification that provides immediate visual feedback. The form prevents invalid submissions through a JavaScript validation function using regex patterns, while CSS custom properties ensure consistent theming across all elements. The layout employs a mobile-first approach with fluid typography and flexible components that adapt seamlessly from mobile to desktop views. Social media icons include interactive hover states, and all interactive elements maintain proper focus states for keyboard navigation. The project demonstrates practical handling of form validation, responsive design principles, and semantic HTML structure.`,
-    projectLink: "https://madalav549.github.io/ping-single-column-coming-soon-page/"
+    projectImage: "./Assets/news-homepage-preview.jpg",
+    projectImageAlt: "News homepage preview",
+    projectName: "News homepage",
+    projectDescription: `This modern news website homepage features a sophisticated responsive layout with an engaging hero section, a dynamic "New" articles sidebar, and a numbered trending section. The design utilizes CSS Grid extensively on desktop to create an asymmetrical, newspaper-style arrangement while maintaining a clean mobile-first experience. The project includes a fully functional mobile navigation menu with open and close states managed through vanilla JavaScript. Attention to detail is evident in the careful typography hierarchy, hover interactions, responsive image swapping, and consistent color scheme. This challenge demonstrates strong skills in building content-heavy layouts, effective grid systems, and delivering a professional news-oriented user interface that works seamlessly across all screen sizes.`,
+    projectLink: "https://madalav549.github.io/News-homepage/"
   },
   {
-    projectImage: "./Assets/Intro-component-with-sign-up-form-solution-preview.jpg" ,
-    projectImageAlt: "Intro-component-with-sign-up-form-solution preview",
-    projectName: "Intro component with sign up form",
-    projectDescription: `This interactive sign-up form component features multi-field validation with immediate user feedback, designed to capture user data accurately before submission. The form validates four distinct input types—first name, last name, email, and password—each with specific error handling and visual cues. JavaScript dynamically toggles error states that combine CSS styling (red borders) with inline error icons and custom messages, providing clear guidance on correction. The layout uses CSS Grid for desktop views to create an effective two-column design that balances marketing content with functional form elements, while maintaining a mobile-first responsive approach. The validation logic includes both presence checking (empty fields) and basic format verification for emails, all implemented without page reloads. Interactive elements include hover effects on the submit button and proper focus states throughout, ensuring accessibility. The project demonstrates practical form handling, error state management, and clean separation of validation logic from presentation.`,
-    projectLink: "https://madalav549.github.io/intro-component-with-sign-up-form/"
+    projectImage: "./Assets/contact-form-preview.jpg",
+    projectImageAlt: "Contact form preview",
+    projectName: "Contact form",
+    projectDescription: `This advanced contact form features comprehensive client-side validation across multiple input types including text fields, email, custom radio buttons, checkbox consent, and textarea. The JavaScript implementation is robust, with real-time validation on input/change events, clear error messaging, and dynamic border styling for immediate visual feedback. The form includes a polished success state with smooth fade-in animation, automatic form reset, and temporary success message display. Custom styling for radio buttons and checkboxes using pseudo-elements adds a modern touch. The project demonstrates strong form handling skills, excellent user experience design, accessibility considerations, and clean separation between validation logic and presentation — marking a significant advancement in vanilla JavaScript capabilities.`,
+    projectLink: "https://madalav549.github.io/Contact-form/"
   },
   {
     projectImage: "./Assets/base-apparel-coming-soon-master-preview.jpg" ,
@@ -25,25 +25,25 @@ let projectsData = [
     projectLink: "https://madalav549.github.io/base-apparel-coming-soon-master/"
   },
   {
-    projectImage: "./Assets/Article-Preview-Component-desktop-design.jpg" ,
-    projectImageAlt: "project Article-Preview-Component-desktop-design preview",
-    projectName: "Article Preview component master",
-    projectDescription: `This interactive article preview component features a dynamic share interface that toggles between two distinct visual states based on user interaction. The component uses JavaScript to seamlessly switch between a standard author profile view and an expanded share panel containing social media icons, with smooth transitions managed through CSS class toggling. The desktop layout employs absolute positioning to create a floating share tooltip with a custom CSS-drawn arrow pointer for precise visual integration. The design maintains full responsiveness, with mobile and desktop views optimized through media queries and CSS Grid for structured content arrangement. Accessibility considerations include proper button labeling and semantic HTML structure for screen readers. Interactive states are clearly indicated through color changes and visual feedback on the share button, creating an intuitive user experience. The project demonstrates practical implementation of UI state management, CSS positioning techniques, and responsive component design with attention to detail in visual polish.`,
-    projectLink: "https://madalav549.github.io/Article-Preview-Component/"
+    projectImage: "./Assets/fylo-landing-page-preview.jpg",
+    projectImageAlt: "Fylo landing page with dark theme preview",
+    projectName: "Fylo landing page with dark theme and features grid",
+    projectDescription: `This comprehensive dark-themed landing page for Fylo showcases advanced multi-section design and strong brand consistency. The project features a modern hero section with call-to-action, a responsive four-card features grid, a productivity section with custom illustrations, customer testimonials, and a functional email signup form with client-side validation. The design employs a dark color palette with tasteful gradients and strategic use of background curves that adapt between mobile and desktop. The layout makes effective use of Flexbox and CSS Grid while maintaining excellent responsiveness. JavaScript powers real-time email validation with regex pattern matching and clear error feedback. This project demonstrates the ability to create polished, professional SaaS marketing pages with cohesive visual hierarchy, interactive elements, and strong attention to detail across both mobile and desktop experiences.`,
+    projectLink: "https://madalav549.github.io/Fylo-dark-theme-landing-page/"
   },
   {
-    projectImage: "./Assets/Huddle-landing-page-preview.jpg" ,
-    projectImageAlt: "Huddle landing page preview",
-    projectName: "Huddle landing page",
-    projectDescription: `This community-focused landing page demonstrates effective use of CSS Grid to create a visually balanced two-column layout that organizes brand imagery alongside compelling value proposition content. The design implements a mobile-first responsive approach with distinct background patterns optimized for different screen sizes, using media queries to switch between mobile and desktop imagery without content disruption. The interface features interactive elements with smooth hover transitions on both the primary call-to-action button and social media icons, providing clear visual feedback through color changes that maintain brand consistency. Typography is carefully managed with two complementary font families to establish clear hierarchy between headings and body text. The layout strategically positions social icons using absolute positioning in desktop view for precise alignment, while maintaining centered organization in mobile layouts. The project showcases practical implementation of background image handling, grid-based responsive design, and interactive styling that enhances user engagement through subtle but effective visual cues.`,
-    projectLink: "https://madalav549.github.io/Huddle-landing-page/"
+    projectImage: "./Assets/expenses-chart-component-preview.jpg",
+    projectImageAlt: "Expenses chart component preview",
+    projectName: "Expenses chart component",
+    projectDescription: `This interactive expenses chart visualizes spending data over a 7-day period using dynamically styled bars. The project features hover interactions that display exact daily amounts, built with a JavaScript data array that drives the chart. The design maintains a clean, modern aesthetic with careful attention to typography and color contrast between current and previous periods. This component demonstrates practical skills in working with data in the frontend, DOM manipulation for interactive elements, and creating clear data visualizations that enhance user understanding.`,
+    projectLink: "https://madalav549.github.io/Expenses-chart-component/"
   },
   {
-    projectImage: "./Assets/social-proof-section-desktop-preview.jpg" ,
-    projectImageAlt: "Social proof section preview",
-    projectName: "Social proof section",
-    projectDescription: `This social proof section showcases a sophisticated layout that combines compelling statistics with authentic customer testimonials to build credibility and trust. The design implements CSS Grid to create a structured desktop view with three distinct content areas: value proposition, star ratings, and testimonial cards, all arranged to guide the user's eye naturally through the social proof elements. The star rating components use semantic HTML lists for accessibility while maintaining visual appeal through consistent icon spacing and background styling. Testimonial cards feature a clean profile section with verified buyer status indicators, using color psychology to establish trust through purple tones. The layout demonstrates advanced responsive techniques with strategic offset positioning of testimonial cards using nth-child selectors to create a visually engaging staggered effect on desktop. Background patterns are carefully managed with separate mobile and desktop images to maintain visual balance across screen sizes. The project highlights practical application of grid-based layouts, semantic HTML structure, and responsive design patterns that enhance content presentation and user trust-building.`,
-    projectLink: "https://madalav549.github.io/social-proof-section/"
+    projectImage: "./Assets/sunnyside-agency-landing-page-preview.jpg" ,
+    projectImageAlt: "Sunnyside agency landing page preview",
+    projectName: "Sunnyside agency landing page",
+    projectDescription: `This vibrant and bold landing page for Sunnyside creative agency demonstrates advanced multi-section layout skills and strong visual storytelling. The project features a complex responsive design with smooth mobile-to-desktop transitions, including a fully functional mobile navigation menu with smooth toggle animation powered by vanilla JavaScript. The layout makes excellent use of CSS Grid and Flexbox to create alternating text-image sections, a responsive testimonials carousel-style display, and a masonry-like image gallery. Two complementary font families (Barlow and Fraunces) are strategically combined to establish clear hierarchy and modern brand personality. The design pays great attention to detail with custom underlines, hover states, image swapping between mobile and desktop versions, and precise positioning of elements. This project showcases the ability to handle large-scale landing pages while maintaining consistent branding, excellent typography, and interactive elements that enhance user engagement.`,
+    projectLink: "https://madalav549.github.io/Sunnyside-Agency-Landing-Page/"
   }
 ]
 
